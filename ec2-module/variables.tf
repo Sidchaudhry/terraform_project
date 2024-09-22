@@ -4,12 +4,12 @@ variable "instance_type" {
 }
 
 variable "ami_id" {
-  description = "The AMI ID for the EC2 instance"
+  description = "ami-0ebfd941bbafe70c6"
   type        = string
 }
 
 variable "key_pair" {
-  description = "The key pair name for SSH access"
+  description = "tf"
   type        = string
 }
 
